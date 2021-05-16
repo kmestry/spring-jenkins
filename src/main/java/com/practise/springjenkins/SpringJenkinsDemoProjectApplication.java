@@ -12,8 +12,9 @@ public class SpringJenkinsDemoProjectApplication {
 
 
     public static void main(String[] args) {
-    	log.info("Application started successfully!");
+
         SpringApplication.run(SpringJenkinsDemoProjectApplication.class, args);
+		log.info("Application started successfully!");
     }
 
     @PostConstruct
